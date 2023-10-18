@@ -208,7 +208,6 @@ int main()
 		takePassword(pass);
 
 		ze = fopen("SystemUsers.dat", "r");
-		int i = 0;
 
 		while (fread(&usr, sizeof(struct users), 1, ze))
 		{
